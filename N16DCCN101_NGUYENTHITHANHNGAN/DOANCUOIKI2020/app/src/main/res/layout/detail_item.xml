@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_new_phone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/border_bottom">
+    <TextView
+        android:id="@+id/tv_root"
+        android:textSize="7.5pt"
+        android:drawableLeft="@drawable/ic_remove_circle_red"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:text="điện thoại"
+        android:textColor="@color/colorWhite"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:background="@drawable/border_right"
+        />
+
+    <EditText
+        android:id="@+id/edt_describe"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:padding="15dp"
+        android:background="@drawable/border_bottom"
+        android:hint="số điện thoại"
+        android:textColor="?attr/ic"
+        android:textColorHint="?attr/ic" />
+
+</LinearLayout>

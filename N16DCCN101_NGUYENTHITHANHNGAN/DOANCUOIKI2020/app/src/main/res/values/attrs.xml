@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="ds" tools:ignore="MissingDefaultResource">
+        <attr name="gradient_1" format="color"/>
+        <attr name="gradient_2" format="color"/>
+        <attr name="gradient_3" format="color"/>
+        <attr name="ic" format="color"/>
+        <attr name="ic_black" format="color"/>
+        <attr name="ic_red" format="color"/>
+        <attr name="ic_green" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="hint_color" format="color"/>
+        <attr name="bor_bot" format="color"/>
+        <attr name="accent" format="color"/>
+        <attr name="back_edt" format="color"/>
+        <attr name="btn_call" format="color"/>
+        <attr name="click_call" format="color"/>
+        <attr name="color_back" format="color"/>
+        <attr name="ripple" format="color"/>
+        <attr name="ripple_1" format="color"/>
+        <attr name="ripple_2" format="color"/>
+        <attr name="color_back_1" format="color"/>
+        <attr name="ic_1" format="color"/>
+        <attr name="ic_2" format="color"/>
+    </declare-styleable>
+</resources>

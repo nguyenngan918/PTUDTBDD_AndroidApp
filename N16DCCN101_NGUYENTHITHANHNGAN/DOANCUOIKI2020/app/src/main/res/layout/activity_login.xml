@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/light">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/userName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/logomeo" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:background="?attr/back_edt"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:text="hello123@gmail.com"
+        android:textColor="?attr/ic"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/userName"
+        android:layout_alignLeft="@+id/userName"
+        android:layout_alignBottom="@+id/cardView"
+        android:layout_marginBottom="130dp"
+        android:background="?attr/back_edt"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:ems="10"
+        android:hint="@string/hint_pass"
+        android:inputType="textPassword"
+        android:text="123456"
+        android:textColor="?attr/ic" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp"
+        android:id="@+id/cardView"
+        android:layout_marginBottom="31dp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:background="@drawable/ripple_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/login">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/login"
+                android:textColor="?attr/ic"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:textColor="?attr/ic"
+        android:background="@drawable/ripple_1"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registerHere"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:id="@+id/linearLayout">
+    </LinearLayout>
+
+</RelativeLayout>

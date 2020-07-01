@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "486789710919",
+    "firebase_url": "https://quanlidanhba.firebaseio.com",
+    "project_id": "quanlidanhba",
+    "storage_bucket": "quanlidanhba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486789710919:android:4504d5f86deb9e0efe9d62",
+        "android_client_info": {
+          "package_name": "com.app.ngan.quanlidanhba_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486789710919-on2nrkp5jk6eungr3055vu89di0oqcrq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.ngan.quanlidanhba_app",
+            "certificate_hash": "2c931284ec8d9e52c5a40ef1b74bbf1aa405e2d9"
+          }
+        },
+        {
+          "client_id": "486789710919-p4iq0q6dhkj0pjp7v6oat0ma2j8camqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbwC34sN59DznUe1TAwWWuXmJDa4bFDDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486789710919-p4iq0q6dhkj0pjp7v6oat0ma2j8camqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

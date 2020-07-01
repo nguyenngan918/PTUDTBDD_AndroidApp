@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:gravity="center_horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:background="@drawable/ripple"
+        android:layout_marginTop="20dp"
+        android:id="@+id/linkAvatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/hoa" />
+
+    <TextView
+        android:background="@drawable/ripple"
+        android:id="@+id/change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change"
+        android:textColor="?attr/ic"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_marginRight="6dp"
+            android:drawablePadding="10dp"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="?attr/back_edt"
+            android:drawableLeft="@drawable/ic_person"
+            android:ems="10"
+            android:hint="@string/hint_fname_1"
+            android:inputType="text"
+            android:textColor="?attr/ic"
+            android:textSize="16dp" />
+
+        <EditText
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:id="@+id/lname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="?attr/back_edt"
+            android:drawableLeft="@drawable/ic_person"
+            android:ems="10"
+            android:hint="@string/hint_lname_1"
+            android:inputType="text"
+            android:textColor="?attr/ic"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/email"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="?attr/back_edt"
+        android:drawableLeft="@drawable/ic_mail"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:textColor="?attr/ic"
+        android:textSize="16dp" />
+
+    <RadioGroup
+        android:layout_marginTop="15dp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:id="@+id/sex">
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:checked="true"
+            android:buttonTint="?attr/ic"
+            android:textColor="?attr/ic"/>
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:buttonTint="?attr/ic"
+            android:textColor="?attr/ic"/>
+    </RadioGroup>
+
+    <EditText
+
+        android:drawablePadding="10dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/birthday"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="?attr/back_edt"
+        android:drawableLeft="@drawable/ic_cake"
+        android:ems="10"
+        android:hint="@string/hint_birth"
+        android:inputType="datetime"
+        android:textColor="?attr/ic"
+        android:textSize="16dp" />
+
+    <EditText
+        android:drawablePadding="10dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/work"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="?attr/back_edt"
+        android:drawableLeft="@drawable/ic_work"
+        android:ems="10"
+        android:hint="@string/hint_work"
+        android:inputType="text"
+        android:textColor="?attr/ic"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/relationship"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="?attr/back_edt"
+        android:drawableLeft="@drawable/ic_filter"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/hint_rela"
+        android:inputType="text"
+        android:textColor="?attr/ic"
+        android:textSize="16dp" />
+
+    <Switch
+        android:id="@+id/dark_mode"
+        android:drawableLeft="@drawable/ic_wb_sunny"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="?attr/back_edt"
+        android:textColor="?attr/ic"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="@string/light_mode"/>
+
+    <TextView
+        android:id="@+id/language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_lang"
+        android:textColor="?attr/ic"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_bottom"
+        />
+
+
+</LinearLayout>
